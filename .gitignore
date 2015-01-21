@@ -26,3 +26,7 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+.idea
+/dist
+/node_modules
+/app/components

@@ -14,5 +14,13 @@
   ],
   "dependencies": {
     "auth0-angular": "~4.0.1"
+  },
+  "overrides": {
+    "auth0-lock": {
+      "main": "build/auth0-lock.min.js"
+    },
+    "auth0.js": {
+      "main": "build/auth0.min.js"
+    }
   }
 }

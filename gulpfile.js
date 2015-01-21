@@ -50,3 +50,7 @@ gulp.task('connect:dist', function(){
 gulp.task('default',['wiredep'],function(){
     gulp.start('usemin','connect:dist');
 });
+
+gulp.task('src',['wiredep'],function(){
+    gulp.start('usemin','connect:src');
+});
